@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 ## HEAD (Unreleased)
+_(none)_
+
+--------------------
+
+## 5.12.1 (2016-08-25)
+_(none)_
+
+## 5.13.0 (2016-08-25)
+_(none)_
+
+## 5.12.0 (2016-08-25)
 * @misteroneill, @BrandonOCasey, and @pagarwal123 updates all the code to pass the linter ([view](https://github.com/videojs/video.js/pull/3459))
 * @misteroneill added ghooks to run linter on git push ([view](https://github.com/videojs/video.js/pull/3459))
 * @BrandonOCasey removed unused base-styles.js file ([view](https://github.com/videojs/video.js/pull/3486))
@@ -18,8 +29,17 @@ CHANGELOG
 * greenkeeper updated uglify ([view](https://github.com/videojs/video.js/pull/3547))
 * greenkeeper updated grunt-concurrent ([view](https://github.com/videojs/video.js/pull/3532))
 * greenkeeper updated karma-chrome-launcher ([view](https://github.com/videojs/video.js/pull/3553))
+* @gkatsev added tests for webpack and browserify bundling and node.js requiring ([view](https://github.com/videojs/video.js/pull/3558))
+* @rlchung fixed tests that weren't disposing players when they finished ([view](https://github.com/videojs/video.js/pull/3524))
 
---------------------
+## 5.11.6 (2016-08-25)
+* @imbcmdth Added exception handling to event dispatcher ([view](https://github.com/videojs/video.js/pull/3580))
+
+## 5.11.5 (2016-08-25)
+* @misteroneill fixed wrapping native and emulated MediaErrors ([view](https://github.com/videojs/video.js/pull/3562))
+* @snyderizer fixed switching between audio tracks. Fixes #3510 ([view](https://github.com/videojs/video.js/pull/3538))
+* @jbarabander added title attribute to audio button. Fixes #3528 ([view](https://github.com/videojs/video.js/pull/3565))
+* @misteroneill fixed IE8 media error test failure ([view](https://github.com/videojs/video.js/pull/3568))
 
 ## 5.11.4 (2016-08-16)
 _(none)_
