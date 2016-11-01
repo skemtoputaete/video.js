@@ -1466,8 +1466,8 @@ class Player extends Component {
 
     seconds = parseFloat(seconds) || 0;
 
-    // Standardize on Inifity for signaling video is live
-    if (seconds < 0) {
+    // Standardize on Inifity for signaling video is live. Use year-duration fallback if no Inifity
+    if (seconds < 0 || seconds > 365 * 24 * 60 * 60) {
       seconds = Infinity;
     }
 
