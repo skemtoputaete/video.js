@@ -41,7 +41,7 @@ class CurrentTimeDisplay extends Component {
     this.contentEl_ = Dom.createEl('div', {
       className: 'vjs-current-time-display',
       // label the current time for screen reader users
-      innerHTML: '<span class="vjs-control-text">Current Time </span>' + '0:00'
+      innerHTML: '<span class="vjs-control-text">Current Time </span>0:00'
     }, {
       // tell screen readers not to automatically read the time as it changes
       'aria-live': 'off'
