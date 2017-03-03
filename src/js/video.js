@@ -211,7 +211,7 @@ videojs.registerComponent = (name, comp) => {
     log.warn(`The ${name} tech was registered as a component. It should instead be registered using videojs.registerTech(name, tech)`);
   }
 
-  Component.registerComponent.call(Component, name, comp);
+  Component.registerComponent(name, comp);
 };
 
 /**

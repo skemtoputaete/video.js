@@ -366,7 +366,7 @@ export function trigger(elem, event, hash) {
   // Unless explicitly stopped or the event does not bubble (e.g. media events)
   // recursively calls this function to bubble the event up the DOM.
   if (parent && !event.isPropagationStopped() && event.bubbles === true) {
-    trigger.call(null, parent, event, hash);
+    trigger(parent, event, hash);
 
   // If at the top of the DOM, triggers the default action unless disabled.
   } else if (!parent && !event.defaultPrevented) {
